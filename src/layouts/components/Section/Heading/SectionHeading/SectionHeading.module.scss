@@ -1,0 +1,128 @@
+.small-heading {
+  color: #555555;
+  font-size: 1.5rem;
+  line-height: 1.4;
+  text-transform: capitalize;
+  outline: none;
+  margin-bottom: 4px;
+}
+
+.large-heading {
+  position: relative;
+  line-height: 32px;
+  font-family: Cardo, serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #2c3033;
+  outline: none;
+  z-index: 1;
+  margin-bottom: 15px;
+}
+
+.sub-large-heading {
+  color: var(--primary);
+  font-family: Cardo, serif;
+  font-size: 2.2rem;
+  font-weight: 300;
+  line-height: 26px;
+  margin-bottom: 15px;
+  outline: none;
+}
+
+.caption-heading {
+  color: #555555;
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin-top: 13px;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .small-heading {
+    font-size: 1.6rem;
+    line-height: 1.7;
+    margin-bottom: 7px;
+  }
+
+  .large-heading {
+    font-size: 3.5rem;
+    line-height: 50px;
+    margin-bottom: 20px;
+  }
+
+  .sub-large-heading {
+    font-size: 2.4rem;
+    line-height: 30px;
+
+    margin-bottom: 20px;
+  }
+
+  .caption-heading {
+    font-size: 1.5rem;
+    line-height: 1.7;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .small-heading {
+    font-size: 1.6rem;
+    line-height: 1.7;
+    margin-bottom: 7px;
+  }
+
+  .large-heading {
+    font-size: 3.5rem;
+    line-height: 50px;
+    margin-bottom: 20px;
+  }
+
+  .sub-large-heading {
+    font-size: 2.4rem;
+    line-height: 30px;
+
+    margin-bottom: 20px;
+  }
+
+  .caption-heading {
+    font-size: 1.5rem;
+    line-height: 1.7;
+  }
+}
+
+/* PC: */
+@media (min-width: 1200px) {
+  .small-heading {
+    font-size: 1.6rem;
+    line-height: 1.7;
+    margin-bottom: 7px;
+  }
+
+  .large-heading {
+    font-size: 3.5rem;
+    line-height: 50px;
+    margin-bottom: 60px;
+  }
+
+  .sub-large-heading {
+    font-size: 2.4rem;
+    line-height: 30px;
+    margin-top: -40px;
+    margin-bottom: 20px;
+  }
+
+  .caption-heading {
+    font-size: 1.5rem;
+    line-height: 1.7;
+    margin-bottom: 40px;
+  }
+}
+
+.text-white {
+  color: var(--white) !important;
+}

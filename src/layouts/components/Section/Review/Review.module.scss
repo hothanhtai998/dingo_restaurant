@@ -1,0 +1,135 @@
+.review-area {
+  padding: 60px 0px;
+}
+
+.client-review {
+  position: relative;
+  z-index: 1;
+}
+.client-img {
+  padding-top: 22px;
+  & img {
+    max-width: 140px;
+    max-height: 140px;
+  }
+}
+.client-review-text {
+  margin-top: 10px;
+  flex: 1;
+  & p {
+    font-size: 1.5rem;
+    text-align: justify;
+    font-style: italic;
+    color: #555555;
+    line-height: 1.6;
+  }
+  & h4 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 1.2em;
+    color: #2c3033;
+    margin: 30px 0;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .review-area {
+    padding: 140px 0px;
+  }
+  .client-review {
+    display: flex;
+    align-items: flex-start;
+    ::after {
+      position: absolute;
+      content: '';
+      left: 165px;
+      top: 0px;
+      width: 1px;
+      height: 100%;
+      border: 1px solid #d9d9d9;
+    }
+  }
+  .client-img {
+    float: left;
+  }
+  .client-review-text {
+    padding-left: 50px;
+    margin-top: 0;
+    flex: 1;
+    & p {
+      font-size: 1.8rem;
+    }
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .review-area {
+    padding: 140px 0px;
+  }
+  .client-review {
+    display: flex;
+    align-items: flex-start;
+    ::after {
+      position: absolute;
+      content: '';
+      left: 165px;
+      top: 0px;
+      width: 1px;
+      height: 100%;
+      border: 1px solid #d9d9d9;
+    }
+  }
+  .client-img {
+    float: left;
+  }
+  .client-review-text {
+    padding-left: 50px;
+    margin-top: 0;
+    flex: 1;
+    & p {
+      font-size: 1.8rem;
+    }
+    & h4 {
+      font-size: 2.4rem;
+      font-weight: 700;
+      line-height: 1.2em;
+      color: #2c3033;
+      margin-bottom: 0;
+    }
+  }
+}
+
+/* PC: */
+@media (min-width: 1200px) {
+  .review-area {
+    padding: 140px 0px;
+  }
+  .client-review {
+    display: flex;
+    align-items: flex-start;
+    ::after {
+      border: 1px solid #d9d9d9;
+      content: '';
+      height: 100%;
+      left: 200px;
+      position: absolute;
+      top: 0px;
+      width: 1px;
+    }
+  }
+  .client-img {
+    width: 200px;
+    float: left;
+  }
+  .client-review-text {
+    padding-left: 50px;
+    margin-top: 0;
+    flex: 1;
+    & p {
+      font-size: 1.8rem;
+    }
+  }
+}

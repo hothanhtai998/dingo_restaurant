@@ -1,0 +1,26 @@
+.reservation-area {
+  padding: 60px 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+.text-white {
+  color: var(--white);
+}
+
+/* PC: */
+@media (min-width: 1200px) {
+  .reservation-area {
+    padding: 140px 0;
+  }
+}

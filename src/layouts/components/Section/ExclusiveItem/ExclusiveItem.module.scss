@@ -1,0 +1,240 @@
+.container {
+  padding: 0 15px;
+}
+.exclusive-item-area {
+  margin-top: 60px;
+  & p {
+    color: #555555;
+    font-size: 1.6rem;
+    line-height: 1.7;
+    margin-bottom: 4px;
+    outline: none;
+  }
+  & h2 {
+    position: relative;
+    font-family: Cardo, serif;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 40px;
+    color: #2c3033;
+    outline: none;
+    z-index: 1;
+    margin-bottom: 30px;
+
+    &::after {
+      position: absolute;
+      height: 6px;
+      width: 56px;
+      left: 0;
+      bottom: 9px;
+      background-color: #ff6426;
+      content: '';
+      z-index: -1;
+    }
+  }
+}
+.single-item {
+  padding: 16px 0;
+}
+.single-item-img img {
+  vertical-align: middle;
+  width: 100%;
+}
+.single-item-text {
+  background-color: var(--white);
+  border: 1px solid #e7e7e7;
+  border-bottom-left-radius: 77px 58px;
+  border-bottom-right-radius: 623px 128px;
+  border-top-left-radius: 100px 0px;
+  border-top-right-radius: 0px 50px;
+  border-radius: 100px 0px 623px 77px / 0px 50px 128px 58px;
+  color: #212529;
+  font-size: 1.4rem;
+  line-height: 21px;
+  outline: none;
+  padding: 20px;
+  transition: all 0.5s ease 0s;
+  &:hover {
+    background-color: var(--white);
+    border: 1px solid transparent;
+    box-shadow: rgba(115, 113, 127, 0.1) 0px 15px 30px;
+  }
+  & h3 {
+    color: #2c3033;
+    font-family: Cardo, serif;
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 28.8px;
+    margin-bottom: 10px;
+    outline: none;
+  }
+
+  & p {
+    color: #555555;
+    font-family: Lora, serif;
+    font-size: 1.4rem;
+    line-height: 1.4;
+    outline: none;
+    margin-bottom: 16px;
+  }
+}
+
+.single-item-text:hover a {
+  color: #ff6426;
+  text-decoration: none;
+  transition: all 0.5s ease 0s;
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .exclusive-item-area {
+    margin-top: 50px;
+    & p {
+      font-size: 1.6rem;
+      line-height: 1.7;
+      margin-bottom: 7px;
+    }
+    & h2 {
+      font-size: 3.5rem;
+      line-height: 50px;
+      margin-bottom: 40px;
+
+      &::after {
+        height: 10px;
+        width: 90px;
+      }
+    }
+  }
+  .single-item {
+    padding: 16px 0;
+  }
+  .single-item-text {
+    padding: 25px;
+    & h3 {
+      font-size: 2.3rem;
+      margin-bottom: 16px;
+    }
+    & p {
+      font-size: 1.5rem;
+      line-height: 1.5;
+    }
+    & a {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .exclusive-item-area {
+    margin-top: 300px;
+    & p {
+      font-size: 1.6rem;
+      line-height: 1.7;
+      margin-bottom: 7px;
+    }
+    & h2 {
+      font-size: 3.5rem;
+      line-height: 50px;
+      margin-bottom: 60px;
+
+      &::after {
+        height: 10px;
+        width: 90px;
+      }
+    }
+  }
+  .single-item {
+    padding: 16px 0;
+  }
+  .single-item-text {
+    padding: 20px;
+    & h3 {
+      font-size: 2.3rem;
+      margin-bottom: 12px;
+    }
+    & p {
+      font-size: 1.5rem;
+      line-height: 1.5;
+    }
+    & a {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .exclusive-item-area {
+    margin-top: 200px;
+    & p {
+      font-size: 1.6rem;
+      line-height: 1.7;
+      margin-bottom: 7px;
+    }
+    & h2 {
+      font-size: 4rem;
+      line-height: 50px;
+      margin-bottom: 60px;
+
+      &::after {
+        height: 10px;
+        width: 90px;
+      }
+    }
+  }
+  .single-item {
+    padding: 0;
+  }
+  .single-item-text {
+    padding: 40px 30px;
+    & h3 {
+      font-size: 2.4rem;
+      margin-bottom: 20px;
+    }
+    & p {
+      font-size: 1.5rem;
+      line-height: 1.7;
+    }
+    & a {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+/* PC: */
+@media (min-width: 1200px) {
+  .exclusive-item-area {
+    margin-top: 10px;
+    & p {
+      font-size: 1.6rem;
+      line-height: 1.7;
+      margin-bottom: 7px;
+    }
+    & h2 {
+      font-size: 4rem;
+      line-height: 50px;
+      margin-bottom: 60px;
+
+      &::after {
+        height: 10px;
+        width: 90px;
+      }
+    }
+  }
+  .single-item {
+    padding: 0;
+  }
+  .single-item-text {
+    padding: 40px 30px;
+    & h3 {
+      font-size: 2.4rem;
+      margin-bottom: 20px;
+    }
+    & p {
+      font-size: 1.5rem;
+      line-height: 1.7;
+      margin-bottom: 30px;
+    }
+    & a {
+      font-size: 1.5rem;
+    }
+  }
+}

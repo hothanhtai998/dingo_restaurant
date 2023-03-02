@@ -1,0 +1,40 @@
+.about-area {
+  margin: 50px 0;
+  & img {
+    width: 100%;
+  }
+}
+
+.about-text {
+  margin: 40px 0;
+  padding: 0 15px;
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .about-area {
+    margin: 80px 0;
+  }
+
+  .about-text {
+    margin: 160px 0;
+    padding: 0 30px;
+  }
+}
+
+/* PC: */
+@media (min-width: 1200px) {
+  .about-area {
+    margin: 80px 0;
+  }
+
+  .about-text {
+    margin: 160px 0;
+    padding: 0 30px;
+  }
+}

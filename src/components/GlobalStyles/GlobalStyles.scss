@@ -1,0 +1,134 @@
+@import 'normalize.css';
+
+:root {
+  // color
+  --primary: #ff6426;
+
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --black: #000;
+
+  // header height (line: 2 - at: src/component/Layout/component/Header/Header.module.scss)
+  --default-header-height: 105px;
+
+  /* container width 
+     - line: 8 , at: src/component/Layout/DefaultLayout/DefaultLayout.module.scss
+     - line: 11 , at: src/component/Layout/component/Header/Header.module.scss
+  */
+  --default-width: 1140px;
+}
+
+//* reset CSS
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+//* init font-size
+html {
+  font-size: 62.5%;
+}
+
+//*
+body {
+  font-family: 'Lora', serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-rendering: optimizeSpeed;
+  overflow-y: overlay;
+}
+
+// Font embedded
+@font-face {
+  font-family: Lora;
+  src: url('../../assets/fonts/Lora/Lora-Regular.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Lora;
+  src: url('../../assets/fonts/Lora/Lora-Medium.ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Lora;
+  src: url('../../assets/fonts/Lora/Lora-SemiBold.ttf');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: Lora;
+  src: url('../../assets/fonts/Lora/Lora-Bold.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Cardo;
+  src: url('../../assets/fonts/Cardo/Cardo-Regular.ttf');
+  font-weight: 400;
+}
+@font-face {
+  font-family: Cardo;
+  src: url('../../assets/fonts/Cardo/Cardo-Bold.ttf');
+  font-weight: 700;
+}
+
+button,
+input,
+[tabindex] {
+  outline: none;
+  border: none;
+}
+
+a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+// Custom tippy tooltips
+body {
+  .tippy-box {
+    // font-size: 1.6rem;
+    border-radius: 8px;
+    font-weight: 600;
+    line-height: 2.2rem;
+    background-color: #545454;
+  }
+
+  .tippy-arrow {
+    color: #545454;
+  }
+}
+
+// scrollbar css
+html *::-webkit-scrollbar {
+  border-radius: 0;
+  width: 8px;
+}
+
+html *::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(22, 24, 35, 0.06);
+}
+
+html *::-webkit-scrollbar-track {
+  border-radius: 0;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-center {
+  justify-content: center;
+}

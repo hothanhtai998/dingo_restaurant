@@ -1,0 +1,114 @@
+.contact-area {
+  padding: 60px 0;
+}
+.contact-form {
+  width: 100%;
+  line-height: 28.8px;
+  background-color: transparent;
+}
+.contact-title {
+  font-size: 27px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+.form-group {
+  display: inline-block;
+  color: #212529;
+  font-size: 14px;
+  line-height: 21px;
+  margin-bottom: 16px;
+  padding-right: 10px;
+  width: 100%;
+}
+.form-group.half {
+  width: 100%;
+}
+.form-control {
+  min-height: 40px;
+  width: 100%;
+  font-size: 14px;
+  background-color: transparent;
+  text-transform: capitalize;
+  color: #888 !important;
+  border: 1px solid #f0e9ff;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  padding: 15px;
+  transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+  &:focus {
+    background-color: transparent;
+    border-color: var(--primary);
+    box-shadow: transparent 0px 0px 0px 0rem !important;
+    color: #495057;
+    outline: none !important;
+  }
+  &:hover {
+    box-shadow: transparent 0px 0px 0px 0px !important;
+    outline: none !important;
+  }
+  &:active {
+    border-color: var(--primary);
+  }
+  &:disabled {
+    background-color: #e9ecef;
+    opacity: 1;
+  }
+  &::placeholder {
+    color: #6c757d;
+    opacity: 1;
+    text-transform: capitalize;
+  }
+}
+.form-control:has(textarea) {
+  border-radius: 12px !important;
+}
+.contact-info-icon {
+  margin-right: 20px;
+  & i {
+    color: #8f9195;
+    font-size: 27px;
+  }
+}
+.contact-info {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 25px;
+  outline: none;
+  line-height: 21px;
+  & .contact-info-icon {
+    margin-right: 20px;
+  }
+  & .contact-info-body {
+    flex: 1;
+    & h3 {
+      font-size: 1.6rem;
+      font-weight: 400;
+      color: #2a2a2a;
+    }
+    & p {
+      color: #8a8a8a;
+      line-height: 1.7;
+      font-size: 1.3rem;
+    }
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/* PC: */
+@media (min-width: 1200px) {
+  .contact-area {
+    padding: 140px 0;
+  }
+  .form-group.half {
+    width: 50%;
+  }
+}

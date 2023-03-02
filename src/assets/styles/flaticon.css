@@ -1,0 +1,31 @@
+/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 04/01/2019 13:45
+  	*/
+
+@font-face {
+  font-family: 'Flaticon';
+  src: url('../fonts/Flaticon/Flaticon.eot');
+  src: url('../fonts/Flaticon/Flaticon.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Flaticon/Flaticon.woff') format('woff'),
+    url('../fonts/Flaticon/Flaticon.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^='flaticon-']:before,
+[class*=' flaticon-']:before,
+[class^='flaticon-']:after,
+[class*=' flaticon-']:after {
+  font-family: Flaticon;
+  font-size: 30px;
+  font-style: normal;
+  color: #fff;
+}
+
+.flaticon-growth:before {
+  content: '\f100';
+}
+.flaticon-wallet:before {
+  content: '\f101';
+}

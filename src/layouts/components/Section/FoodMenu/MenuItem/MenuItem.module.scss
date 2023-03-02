@@ -1,0 +1,22 @@
+.title {
+  padding: 45px 25px 25px;
+}
+.menu-item {
+  text-transform: capitalize;
+  margin-bottom: 20px;
+
+  &:hover {
+    color: #ff6426 !important;
+    text-decoration: none;
+    transition: all 0.5s ease 0s;
+  }
+  &:focus {
+    box-shadow: none;
+    outline: none;
+    text-decoration: none;
+    transition: all 1s ease 0s;
+  }
+}
+.menu-item.active {
+  color: #ff6426;
+}

@@ -1,0 +1,139 @@
+.chefs-area {
+  padding: 60px 0;
+}
+
+.single-item {
+  padding: 16px 0;
+}
+.single-item-img {
+  & img {
+    vertical-align: middle;
+    border-style: none;
+    width: 100%;
+  }
+}
+
+.single-item-text {
+  border: 1px solid #e7e7e7;
+  border-radius: 100px 0px 623px 77px / 0px 50px 128px 58px;
+  background-color: var(--white);
+  padding: 40px 30px;
+  transition: 0.5s;
+  & h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  & p {
+    line-height: 1.7;
+    font-size: 15px;
+    margin-bottom: 0px;
+    color: #555555;
+  }
+  &:hover {
+    background-color: #ffffff;
+    border: 1px solid transparent;
+    box-shadow: rgba(115, 113, 127, 0.1) 0px 15px 30px;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.social-icon {
+  margin-top: 35px;
+  & a {
+    border: 1px solid #e2e5e7;
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    font-size: 12px;
+    display: inline-block;
+    color: #949798;
+    line-height: 37px;
+    margin: 0px 8px;
+    &:hover {
+      background-color: #ff6426;
+      border: 1px solid #ff6426;
+      color: #ffffff !important;
+      text-decoration: none;
+      transition: all 0.5s ease 0s;
+    }
+    &:focus {
+      box-shadow: none;
+      outline: none;
+      text-decoration: none;
+      transition: all 1s ease 0s;
+    }
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .chefs-area {
+    padding: 140px 0;
+  }
+
+  .single-item {
+    padding: 0;
+  }
+  .single-item-text {
+    padding: 40px 30px;
+    & h3 {
+      font-size: 2.4rem;
+      margin-bottom: 20px;
+    }
+    & p {
+      line-height: 1.7;
+      font-size: 1.5rem;
+    }
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .chefs-area {
+    padding: 140px 0;
+  }
+
+  .single-item {
+    padding: 12px 0;
+  }
+
+  .single-item-text {
+    padding: 40px 30px;
+    & h3 {
+      font-size: 2.4rem;
+      margin-bottom: 20px;
+    }
+    & p {
+      line-height: 1.7;
+      font-size: 1.5rem;
+    }
+  }
+}
+
+/* PC: */
+@media (min-width: 1200px) {
+  .chefs-area {
+    padding: 140px 0;
+  }
+
+  .single-item {
+    padding: 0;
+  }
+
+  .single-item-text {
+    padding: 40px 30px;
+    & h3 {
+      font-size: 2.4rem;
+      margin-bottom: 20px;
+    }
+    & p {
+      line-height: 1.7;
+      font-size: 1.5rem;
+    }
+  }
+}

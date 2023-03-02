@@ -1,0 +1,85 @@
+.small-title {
+  color: var(--primary);
+  font-size: 2.4rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 28.8px;
+  margin-bottom: 25px;
+  margin-top: 0px;
+  display: block;
+  text-transform: capitalize;
+}
+.large-title {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 2.7rem;
+  font-weight: 600;
+  line-height: 36px;
+  margin-bottom: 24px;
+}
+.captions {
+  color: #555;
+  line-height: 28.8px;
+  margin-bottom: 1.4rem;
+}
+
+.text-white {
+  color: var(--white) !important;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Mobile:  ip 6+,7+,8+*/
+@media (min-width: 414px) and(max-width: 575px) {
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .small-title {
+    text-align: left;
+  }
+  .large-title {
+    text-align: left;
+  }
+  .captions {
+    text-align: left;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .small-title {
+    font-size: 2.4rem;
+    line-height: 28.8px;
+    margin-bottom: 25px;
+    text-align: left;
+  }
+  .large-title {
+    font-size: 4rem;
+    line-height: 56px;
+    text-align: left;
+  }
+  .captions {
+    text-align: left;
+  }
+}
+
+/* PC, i-pad pro: */
+@media (min-width: 1200px) {
+  .small-title {
+    font-size: 2.4rem;
+    line-height: 28.8px;
+    margin-bottom: 25px;
+    text-align: left;
+  }
+  .large-title {
+    font-size: 4rem;
+    line-height: 56px;
+    text-align: left;
+  }
+  .captions {
+    text-align: left;
+  }
+}
